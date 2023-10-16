@@ -1,3 +1,5 @@
+## Introduction to Quantum Computing and Programming
+
 This repository is an introduction to quantum computing and programming (using the library [Qiskit](https://qiskit.org/)). It should provide a basic understanding of the field to a beginner.
 
 It covers the following topics:
@@ -13,7 +15,5 @@ It covers the following topics:
 To complete the picture, here's an excellent book for a more in-depth look at the Quantum Computing field:
 
 [Quantum Computation and Quantum Information, Michael A. Nielsen & Isaac L. Chuang](https://profmcruz.files.wordpress.com/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
-
-<img src="https://miro.medium.com/v2/resize:fit:1058/1*6DDQIebhDbbzopuWcNe5mQ.png" width=150 height=150 />
 
 *Prerequisites: Linear algebra (orthonormal basis, vectors, matrices), Basic algorithmic and Python programming.*
