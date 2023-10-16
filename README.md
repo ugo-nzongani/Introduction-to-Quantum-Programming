@@ -14,6 +14,6 @@ To complete the picture, here's an excellent book for a more in-depth look at th
 
 [Quantum Computation and Quantum Information, Michael A. Nielsen & Isaac L. Chuang](https://profmcruz.files.wordpress.com/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
-<img src="https://img.perlego.com/books/RM_Books/cup_kagcsvfg/9780511985249.jpg" width=60 height=60 />
+<img src="https://img.perlego.com/books/RM_Books/cup_kagcsvfg/9780511985249.jpg" width=150 height=150 />
 
 *Prerequisites: Linear algebra (orthonormal basis, vectors, matrices), Basic algorithmic and Python programming.*
