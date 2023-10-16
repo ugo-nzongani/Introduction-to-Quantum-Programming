@@ -7,7 +7,11 @@ It covers the following topics:
 - Quantum Teleportation
 - Quantum Fourier Transform
 - Quantum Phase Estimation
-- [Draper QFT Adder](https://arxiv.org/abs/quant-ph/0008033)
+- Draper QFT Adder
 - Bernstein-Vazirani algorithm
+
+To complete the picture, here's an excellent book for a more in-depth look at the Quantum Computing field:
+
+[Quantum Computation and Quantum Information](https://profmcruz.files.wordpress.com/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
 *Prerequisites: Linear algebra (orthonormal basis, vectors, matrices), Basic algorithmic and Python programming.*
