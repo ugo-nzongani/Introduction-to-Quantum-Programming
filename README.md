@@ -2,7 +2,7 @@ This repository is an introduction to quantum computing and programming (using t
 
 It covers the following topics:
 - Basics of quantum information (braket notation, vector state representation, entanglement, measurements, unitary operations)
-- Basics of quantum circuits model
+- Basics of quantum circuit model
 - Superdense coding
 - Quantum Teleportation
 - Quantum Fourier Transform
