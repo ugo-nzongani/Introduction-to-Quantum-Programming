@@ -1,8 +1,8 @@
-This repository is an introduction to quantum computing and programming (using the library Qiskit). It should provide a basic understanding of the field to a beginner.
+This repository is an introduction to quantum computing and programming (using the library [Qiskit](https://qiskit.org/)). It should provide a basic understanding of the field to a beginner.
 
 It covers the following topics:
 - Basics of quantum information (braket notation, vector state representation, entanglement, measurements, unitary operations)
-- Basics of quantum circuits
+- Basics of quantum circuits model
 - Superdense coding
 - Quantum Teleportation
 - Quantum Fourier Transform
