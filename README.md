@@ -11,6 +11,7 @@ It covers the following topics:
 - Quantum Phase Estimation
 - Draper QFT Adder
 - Bernstein-Vazirani algorithm
+- Depth-Width tradeoff for quantum circuits
 
 To complete the picture, here's an excellent book for a more in-depth look at the Quantum Computing field:
 
