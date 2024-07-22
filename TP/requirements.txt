@@ -1,0 +1,7 @@
+jupyter
+qiskit
+qiskit[visualization]
+qiskit_aer
+qiskit-ibm-runtime
+numpy
+matplotlib
