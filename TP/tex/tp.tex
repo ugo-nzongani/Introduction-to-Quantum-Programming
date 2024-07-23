@@ -83,9 +83,7 @@ qc.barrier()
 # Measure of the register q, the results are stored in c
 qc.measure(q,c)
 # Drawing the circuit
-qc.draw('mpl')
-# Note that the display style of the circuit can be modified with:
-# qc.draw('mpl',style'bw'), qc.draw('mpl',style'iqx') or qc.draw()
+qc.draw('mpl') # qc.draw() does a raw print of the circuit
 \end{minted}
 Once a quantum circuit is created, one can run it to get some outcomes.
 
@@ -211,7 +209,7 @@ One is encouraged to use the following functions defined in \verb|utils.py| to r
     \begin{minted}{python}
     q = QuantumRegister(1)
     qc = QuantumCircuit(q)
-    bloch(qc,latex=False)
+    draw_state(qc,latex=False)
     \end{minted}
     If \verb|latex| is set to \verb|False| the output is the Bloch Sphere representation of the qubit state, otherwise it is the mathematical expression.
     \item Do the same with the state $\ket{\psi}=\frac{1}{\sqrt{2}}(\ket{00}+\ket{01})$. 
@@ -687,7 +685,7 @@ The second step is called the diffusion operator, it's a reflection over the ave
 \end{equation*}
 where $I$ is the identity and $2\ket{0^n}\bra{0^n}-I$ flips the phase of the $\ket{O^n}$ state. This operator is going to flip the states around the mean, as the sign of the marked element is different from the rest, its amplitude will grow and that of the unmarked states will decrease. Therefore, one has to repeat these operations $k$ times to reach a probability of measuring the marked state close to 1. Grover's algorithm corresponds to applying the following operator:
 \begin{equation*}
-    G_f = ((D\otimes I)\cdot O_f)^k \ket{+^n}\otimes\ket{-}
+    G_f = (D\cdot O_f)^k \ket{+^n}\otimes\ket{-}
 \end{equation*}
 The quantum circuit representation is:
 \begin{figure}[H]
@@ -696,7 +694,7 @@ The quantum circuit representation is:
 \lstick{$\ket{0}^{\otimes n}$} & \gate{H^{\otimes n}} & \gate[2]{O_f}\gategroup[2,steps=2,style={dashed,rounded
 corners, inner
 xsep=2pt,color=magenta},background,label style={label
-position=below,anchor=north,yshift=-0.2cm}]{$\lfloor\frac{\pi}{4}\sqrt{N}\rfloor$ times} & \gate{D} & \meter{} & \cw\qwbundle{n} \\
+position=below,anchor=north,yshift=-0.2cm}]{$\lfloor\frac{\pi}{4}\sqrt{N}\rfloor$ times} & \gate[2]{D} & \meter{} & \cw\qwbundle{n} \\
 \lstick{$\ket{-}$} & \qw & & \qw & \qw & \qw
 \end{quantikz}
 \end{figure}
