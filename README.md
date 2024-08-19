@@ -17,4 +17,9 @@ To complete the picture, here's an excellent book for a more in-depth look at th
 
 [Quantum Computation and Quantum Information, Michael A. Nielsen & Isaac L. Chuang](https://profmcruz.files.wordpress.com/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
+A good introduction for people with an undergraduate level:
+
+[Introduction to Classical and Quantum Computing, Thomas G. Wong](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e4p.pdf)
+
+
 *Prerequisites: Linear algebra (orthonormal basis, vectors, matrices), Basic algorithmic and Python programming.*
